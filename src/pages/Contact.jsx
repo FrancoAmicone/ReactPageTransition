@@ -4,7 +4,7 @@ import Transition from "../components/Transition";
 const Contact = () => {
   return (
     <div className="container">
-      <h1>Say Hello</h1>
+      <h2>Say Hello</h2>
     </div>
   );
 };

@@ -1,10 +1,21 @@
 import React from "react";
 import Transition from "../components/Transition";
+import BlurText from "../TextAnimations/BlurText/BlurText";
+const handleAnimationComplete = () => {
+  console.log('Animation completed!');
+};
 
 const Home = () => {
   return (
     <div className="container">
-      <h1>Index</h1>
+      <BlurText
+      text="home page"
+      delay={150}
+      animateBy="words"
+      direction="top"
+      onAnimationComplete={handleAnimationComplete}
+      className="blurtext"
+    />
     </div>
   );
 };

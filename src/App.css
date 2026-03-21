@@ -5,13 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #0f0f0f;
+  color: #2dff08;
 }
 
 html,
 body {
   font-family: "Inter";
-  background: #ffffff;
+  background: #ec1b1b;
 }
 
 .nav {
